@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/welcomeBackTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="welcome back\nyourEmail@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:fontFamily="serif"/>
+
+    <TextView
+        android:id="@+id/numberTextView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="0"
+        android:textColor="@color/my_blue"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/number_bg"/>
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="click button to decrease number"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/clickButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click"
+        android:textAllCaps="false"
+        android:background="@drawable/button_bg"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>
